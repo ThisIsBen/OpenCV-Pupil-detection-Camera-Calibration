@@ -17,4 +17,3 @@
 
 
 
-https://github.com/ThisIsBen/OpenCV-Face-recognition-SIFT-Optical-Flow-tracking-Background-Subtraction

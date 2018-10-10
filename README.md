@@ -1,19 +1,21 @@
-
-# OpenCV_ImageProcessing
+# OpenCV C++: Pupil detection,Camera Calibration 
 ## I make use of OpenCV in C++ with Visual studio 2012 to achieve the following image processing:
-## 1.  SIFT
-## 2.  Background Subtraction
-## 3.  Optical Flow tracking
-   - ### 3.1 Preprocessing 
-   - ### 3.2 Tracking whole video 
-## 4. Face Recognition & Detection 
-   - ### 4.1 Face Recognition 
-   - ### 4.2 Face Detection 
-   - ### 4.3 Face Detection + Recognition 
+## 1. Camera Calibration
+- ### 1.1 Corner detection 
+- ### 1.2 Find the intrinsic matrix 
+- ### 1.3 Find the extrinsic matrix 
+- ### 1.4 Find the distortion matrix  
+## 2. AR
+## 3. Pupil detection    
+   - ### 3.1 Median Smooth  去除圖片的雜訊 
+   - ### 3.2 Canny  邊緣偵測 
+   - ### 3.3 HoughCircle + cvCircle  找出圓並將瞳孔標示出來 
+
+
+
    
 ## For the details of each image processing result, please refer to the PPT,"OpenCV image processing request" in the repo.
-## For the complete project,which includes all the programs and images used to implement the image processing feature mentioned above, please download it with this [link](https://drive.google.com/file/d/1J-WrxQHtTqhORK4FZDjrPSpzvIaWOrIY/view?usp=sharing)
-
-
-
-
+## Requirement:
+- ### Visual Studio 2012
+- ### OpenCV 2.4.7 or above.
+## For the complete project,which includes all the programs and images used to implement the image processing feature mentioned above, please download it with this [link](https://drive.google.com/file/d/1ViOPNPuOz6Q8J38ooGjjdo0FYSGj7d8M/view?usp=sharing)

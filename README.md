@@ -5,11 +5,10 @@
 - ### 1.2 Find the intrinsic matrix 
 - ### 1.3 Find the extrinsic matrix 
 - ### 1.4 Find the distortion matrix  
-## 2. AR
-## 3. Pupil detection    
-   - ### 3.1 Median Smooth  去除圖片的雜訊 
-   - ### 3.2 Canny  邊緣偵測 
-   - ### 3.3 HoughCircle + cvCircle  找出圓並將瞳孔標示出來 
+## 2. Pupil detection    
+   - ### 2.1 Median Smooth  去除圖片的雜訊 
+   - ### 2.2 Canny  邊緣偵測 
+   - ### 2.3 HoughCircle + cvCircle  找出圓並將瞳孔標示出來 
 
 
 
